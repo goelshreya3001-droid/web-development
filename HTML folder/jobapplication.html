@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <>
+        <label for="name">Name:</label>
+        <br>
+        <input type="text" id="name" name="naam">
+        <br>
+        <br>
+        <label for="email">Email Id:</label>
+        <br>
+        <input type="email" id="emailid" name="emaill">
+        <br>
+        <br>
+        <label for="phone">Phone:</label>
+        <br>
+        <input type="text" id="phone" name="phonenumber">
+        <br>
+        <br>
+        <label for="fileupload">Resume:</label><br>
+        <input type="file" id="fileupload" name="fileU">
+        <br>
+        <br>
+        <label for="years">Experience(years):</label><br>
+        <input type="number" id="years" name="experience" min="0" max="50">
+        <fieldset>
+    <legend>Skills:</legend>
+
+    <input type="checkbox" name="topics" id="html" value="html">
+    <label for="html">HTML</label>
+
+    <input type="checkbox" name="topics" id="css" value="css">
+    <label for="css">CSS</label>
+
+    <input type="checkbox" name="topics" id="js" value="javascript">
+    <label for="js">Javascript</label>
+</fieldset>
+<br>
+<br>
+<label for="education">Higher Education:</label>
+<select name="educationtype" id="education">
+  <option value="a">High School</option>
+  <option value="a">Assoociate's Degree</option>
+  <option value="a">Master's Degree</option>
+  <option value="a">Bachelor's Degree</option>
+  <option value="a">PhD</option>
+</select>
+<fieldset>
+    <legend>Availability:</legend>
+        <input type="radio" name="topics" id="Full" value="Full TIME">
+    <label for="Full">Full-Time:</label>
+
+    <input type="radio" name="topics" id="part" value="part-time">
+    <label for="part">Part-time</label>
+</fieldset>
+<label for="cmnts">Comments:</label><br>
+<textarea name="comments" id="cmnts" rows="5" cols="30"></textarea>
+<input type="submit" value="Submit Application">
+
+    </form>
+</body>
+</html>
