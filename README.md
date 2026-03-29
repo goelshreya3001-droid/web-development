@@ -23,4 +23,7 @@ Only take up as much width as their content
 Ignore width and height
 Respect horizontal padding/margin, but vertical behavior is limited*/<br>
 
-What is box sizing...
+What is box sizing...<br>
+border sizing =border box<br>
+if u want ki padding aur margin se box ki dimensions change nhi hongi if we will use box sizing =border size instead content shrink ho jayega lekin dimension of box remains same 
+
